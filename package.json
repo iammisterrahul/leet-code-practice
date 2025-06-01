@@ -1,0 +1,20 @@
+{
+  "name": "leet-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "jest --detectOpenHandles --coverage",
+    "test:q1": "jest ../q1 --coverage"
+  },
+  "workspaces": [
+    "./q1"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
